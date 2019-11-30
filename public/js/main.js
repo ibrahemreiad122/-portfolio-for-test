@@ -1,8 +1,3 @@
-document
-  .getElementById("contactForm")
-  .addEventListener("submit", function(event) {
-    event.preventDefault();
-  });
 var pass = document.getElementById("pass"),
   conf = document.getElementById("confPass"),
   btn = document.getElementById("btnConf"),
