@@ -1,0 +1,24 @@
+.aboutJumb {
+  background-image: url(../photos/jumb.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.about {
+  float: left;
+  list-style: none;
+  margin-right: 50px;
+  font-family: "cursive", Comic Sans MS, Comic Sans, cursive;
+  color: gray;
+  text-decoration: none;
+}
+.about:hover {
+  color: black;
+  text-decoration: none;
+}
+.contactJumb {
+  background-image: url(../photos/face-1511873_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

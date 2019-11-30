@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/bootstrap1.css" />
+    <link rel="stylesheet" href="../css/cssFont/all.css" />
+    <link rel="stylesheet" href="../css/port.css" />
+    <link rel="stylesheet" href="../css/body.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+  </head>
+  <body>
+    <%-include("navbar.ejs")%>
+    <div class="jumbotron jumbotron-fluid contactJumb">
+      <div class="container">
+        <h1 class="display-4" style="color:#23272B ;">Contact us</h1>
+        <p class="lead" style="color: #23272B;">
+          You can contact with us and give some advice as you like and if there
+          is any wrong you can info us .
+        </p>
+      </div>
+    </div>
+
+    <h2 style="text-align: center; color: #23272B; margin: 15px 0;">
+      Contact with us <i class="fas fa-envelope"></i>
+    </h2>
+    <div class="container">
+      <form id="contactForm">
+        <div class="form-group">
+          <div class="row">
+            <input
+              id="nameCon"
+              type="text"
+              style="margin-left: 280px; max-width: 250px;"
+              class="form-control col-md-3 mm"
+              placeholder="Enter name"
+            />
+            <input
+              type="email"
+              style="margin-left: 20px; max-width: 250;"
+              class="form-control col-md-3 mm"
+              id="emailCon"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <textarea
+            style="margin-left: 280px; max-width: 555px;"
+            class="form-control col-md-6"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+        </div>
+        <button
+          id="btnCon"
+          class="btn btn-dark"
+          style="margin-left: 695px; margin-top: 15px;"
+        >
+          Send message
+        </button>
+      </form>
+    </div>
+
+    <%-include("footer.ejs")%>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap2.js"></script>
+    <script src="../js/jsFont/all.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>

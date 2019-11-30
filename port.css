@@ -1,0 +1,36 @@
+body {
+  margin-top: 50px;
+}
+li {
+  float: left;
+  list-style: none;
+  margin-right: 50px;
+  font-family: "cursive", Comic Sans MS, Comic Sans, cursive;
+  color: gray;
+}
+li:hover {
+  color: black;
+}
+.foot {
+  color: black;
+  font-family: "cursive", Comic Sans MS, Comic Sans, cursive;
+  font-size: 20px;
+}
+.folow {
+  margin-left: 630px;
+  font-family: "cursive", Comic Sans MS, Comic Sans, cursive;
+  font-size: 20px;
+}
+.Myname {
+  color: black;
+  font-family: "cursive", Comic Sans MS, Comic Sans, cursive;
+  font-size: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+.Myp {
+  color: gray;
+  font-family: "cursive", Comic Sans MS, Comic Sans, cursive;
+  text-align: center;
+  margin: 0 auto;
+}
