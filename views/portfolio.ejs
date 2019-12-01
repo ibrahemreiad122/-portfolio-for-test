@@ -187,6 +187,9 @@
                   name="firstName"
                   id="first"
                 />
+                <span id="spanFirst" style="display: none; color: tomato;"
+                  >at lest 3 letters</span
+                >
               </div>
               <div class="col-xl-12">
                 <label style="color: white;" for="last">Last Name</label>
@@ -196,23 +199,40 @@
                   name="lastName"
                   id="last"
                 />
+                <span id="spanLast" style="display: none; color: tomato;"
+                  >at lest 3 letters</span
+                >
               </div>
             </div>
             <div class="form-row">
               <div class="form-group col-xl-12">
                 <label style="color: white;">Email</label>
                 <input type="email" class="form-control" id="email" />
+                <span id="spaneEmail" style="display: none; color: tomato;"
+                  >not valid email</span
+                >
               </div>
               <div class="form-group col-xl-12">
                 <label style="color: white;">Password</label>
                 <input type="password" class="form-control " id="pass" />
+                <span id="spanPass" style="display: none; color: tomato;"
+                  >type 8 aor more number and letters</span
+                >
               </div>
               <div class="form-group col-xl-12">
                 <label style="color: white;">Confirm Password</label>
                 <input type="password" class="form-control " id="confPass" />
+                <span id="spanConfPass" style="display: none; color: tomato;"
+                  >password not match</span
+                >
               </div>
             </div>
-            <button type="submit" class="btn btn-danger mb-3" id="btnConf">
+            <button
+              onclick="confirmPass(event)"
+              type="submit"
+              class="btn btn-danger mb-3"
+              id="btnConf"
+            >
               Sign in
             </button>
           </form>
